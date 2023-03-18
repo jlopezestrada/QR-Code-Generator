@@ -1,0 +1,72 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+/* Set background color to light gray */
+body {
+  background-color: GhostWhite;
+}
+
+/* Center the title and make it blue */
+h1 {
+  text-align: center;
+}
+
+/* Style the input box with rounded corners and a border */
+#qr-text {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  height: 40px;
+  border: 1px solid #c7c7cc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Style the button with a gradient background and a shadow */
+#qr-button {
+  display: block;
+  margin: 20px auto;
+  width: 60%;
+  height: 50px;
+  
+ /* Use a linear gradient from light blue to dark blue */
+ background-color: black;
+
+ /* Make the button rounded and add some padding */
+ border-radius: 15px; 
+ padding-left: .75em; 
+ padding-right: .75em;
+
+ /* Use white color for the text and make it bold */
+ color:white; 
+ font-weight:bold; 
+ font-size:.9rem;
+
+ /* Remove the default outline when focused */
+ outline: none; 
+}
+
+/* Change the button style when hovered */
+#qr-button:hover {
+
+ /* Use a darker gradient background */
+ background-color: gray;
+}
+
+#qr-code {
+  text-align: center;
+}
+
+/* Changes for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  /* Style the input box with rounded corners and a border */
+  #qr-text {
+    width: 100%;
+  }
+
+  /* Style the button with a gradient background and a shadow */
+  #qr-button {
+    width: 100%;
+  }
+}
