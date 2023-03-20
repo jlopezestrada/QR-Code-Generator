@@ -4,11 +4,41 @@
     <title>QR Code Generator</title>
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/a0edfd9aab.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>QR Code Generator</h1>
+    <header>
+      <nav id="navbar">
+        <img id="logo" src="img/logo.png">
+        <a id="title" href="#">
+          <h1>QR Code Generator</h1>
+        </a>
+        <div class="links">
+          <a href="#generate">Generate</a>
+          <a href="#information">Information</a>
+          <a href="#about">About</a>
+        </div>
+      </nav>
+    </header>
+    <section id="generate">
+    <h2>Generate QR Code</h2>
     <input type="text" id="qr-text" placeholder="Enter text here" />
     <button id="qr-button" onclick="generateQRCode()">Generate QR Code</button>
     <div id="qr-code"></div>
+  </section>
+  <section id="information">
+    <h2>Information</h2>
+    <p>QR codes are a type of matrix barcode that can be read using a smartphone or QR code reader. They are often used to store URLs, contact information, and other types of data. QR codes are a great way to share information quickly and easily.</p>
+  </section>
+  <section id="about">
+    <h2>About</h2>
+    <ul>
+      <li><i class="fa-brands fa-github"></i> GitHub</li>
+      <li><i class="fa-brands fa-linkedin-in"></i> LinkedIn</li>
+      <li><i class="fa-solid fa-envelope"></i> Email</li>
+    </ul>
+  </section>
+</body>
+</html>
   </body>
 </html>
