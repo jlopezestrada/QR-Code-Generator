@@ -1,3 +1,4 @@
+/* The box-sizing property defines how the width and height of an element are calculated */
 * {
   box-sizing: border-box;
   font-family: Consolas, sans-serif;
