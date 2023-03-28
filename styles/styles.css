@@ -93,6 +93,30 @@ header {
   text-align: center;
 }
 
+#qr-download a {
+  text-decoration: none;
+}
+
+#qr-download button {
+  display: block;
+  margin: 20px auto;
+  width: 30%;
+  height: 40px;
+  background-color: black;
+  border-radius: 15px; 
+  padding-left: .75em; 
+  padding-right: .75em;
+  color:white; 
+  font-size: 18px;
+  font-weight: bold; 
+  outline: none; 
+}
+
+#qr-download button:hover {
+  background-color: Ghostwhite;
+  color: black;
+ }
+
 section {
   background-color: white;
   color: black;
