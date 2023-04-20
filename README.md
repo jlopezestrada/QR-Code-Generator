@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12d5dd8c-8550-40bd-80b9-3982496d596a/deploy-status)](https://steady-medovik-b7167e.netlify.app/)
+
 # QR Code Generator
 
 ## Description
