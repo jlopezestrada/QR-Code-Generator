@@ -1,7 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>QR Code Generator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="José Ángel López">
+    <meta name="description" content="A simple and user-friendly QR code generator app">
+    <meta name="keywords" content="QR-Code, QR, Generator, QR-Generator, Personalized QR codes, QR Code, QR code creator">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/a0edfd9aab.js" crossorigin="anonymous"></script>
@@ -22,7 +27,7 @@
     </header>
     <section id="generate">
     <h2>Generate QR Code</h2>
-    <input type="text" id="qr-text" placeholder="Enter text here" />
+    <input type="text" id="qr-text" name="qr-text" maxlength="255" placeholder="Enter text here"/>
     <button id="qr-button" onclick="generateQRCode()">Generate</button>
     <div id="qr-code"></div>
     <div id="qr-download"></div>
